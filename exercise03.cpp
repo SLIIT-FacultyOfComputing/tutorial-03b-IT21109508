@@ -33,6 +33,7 @@ int main() {
     cout << "Enter Box 2 Length : ";
     cin >> box2.Length;
     
+    
     // 5. Replace the coding below to pass the Box type structure
     totalVolume = volume(box1.Height,box1.Width ,box1.Length )
              + volume( box2.Height,box2.Width , box2.Length );

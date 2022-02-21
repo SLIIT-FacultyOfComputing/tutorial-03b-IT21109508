@@ -9,6 +9,7 @@ int main() {
  cout << setw(15) << "Marks" << setprecision(2); 
  cout << endl;
  
+ 
  for (int r = 0; r < 5; r++) {
    cout<<setw(5)<<setprecision(2);
      cout <<  r+1 ;
