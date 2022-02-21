@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+//entering the void values 
 void print(int len, int wth);
 void input(int len, int wth);
 
@@ -18,4 +18,9 @@ void print(int len, int wth) {
         << ", Width  : " << wth << endl;
 }
 
+void input(int len,int wth){
+  cin>>len;
+  cin>>wth;
+  }
+  
 // Implement the Input Function here
